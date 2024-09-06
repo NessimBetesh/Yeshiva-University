@@ -1,0 +1,43 @@
+(not(F) or B)
+(not(A) or T)
+
+(A and B)
+(B and C)
+
+(A or B)
+(A or B or C)
+
+A and F
+A or B or C or D and F
+
+l impl r
+A and B
+B or C
+
+r impl l
+B or C
+A and B
+
+
+no impl
+A or B
+not A or C
+
+no impl
+A and B
+not B or C
+
+equiv
+T not F
+
+no impl
+A and T
+B or F
+
+no impl
+A or B and not C or F and T or not D
+E and F or not G and S
+
+l impl r
+A or B and not C or F and T or not D
+T or G
